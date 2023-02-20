@@ -6,6 +6,7 @@
     <item
         android:id="@+id/navigation_favorite"
         android:icon="@drawable/ic_baseline_favorite"
+
         android:title="Favorite" />
     <item
         android:id="@+id/navigation_list"
