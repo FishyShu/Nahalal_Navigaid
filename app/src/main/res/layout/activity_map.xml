@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+
+    <Button
+        android:id="@+id/map_btn_12th_grade_building"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12th"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614" /> <!--12th-->
+
+    <Button
+    android:id="@+id/map_btn_11th_grade_building"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="11th"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.05"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.374" /> <!--11th-->
+
+    <Button
+        android:id="@+id/map_btn_10th_grade_building"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10th"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184" /> <!--10th-->
+
+    <Button
+        android:id="@+id/map_btn_9th_grade_building"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9th"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" /> <!--9th-->
+
+    <Button
+        android:id="@+id/map_btn_8th_grade_building"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8th"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" /> <!--8th-->
+
+    <Button
+        android:id="@+id/map_btn_7th_grade_building"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7th"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374" /> <!--7th-->
+
+    <Button
+        android:id="@+id/map_btn_6th_grade_building"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6th"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756" /> <!--6th-->
+
+    <Button
+        android:id="@+id/map_btn_main_building"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Building"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402" />
+</androidx.constraintlayout.widget.ConstraintLayout>
