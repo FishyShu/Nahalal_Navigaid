@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
-    BottomNavigationView bottom_navigation;
+    BottomNavigationView bottomNavigationView;
     TextView ph_MA;
 
 
@@ -21,8 +21,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        bottom_navigation = (BottomNavigationView) findViewById(R.id.bottom_navigation);
-        bottom_navigation.setOnNavigationItemSelectedListener
+        BottomNavigationView bottomNavigationView = findViewById(R.id.navigation_bottom_bar);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener
                 (new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (intent != null) {
                     startActivity(intent);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                     return true;
                 }
                 return false;

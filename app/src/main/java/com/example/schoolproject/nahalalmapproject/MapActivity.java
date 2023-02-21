@@ -10,13 +10,12 @@ import android.widget.Button;
 
 public class MapActivity extends AppCompatActivity {
 
-    Button button;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
 
-        button = findViewById(R.id.button);
 
     }
 }

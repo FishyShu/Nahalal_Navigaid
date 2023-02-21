@@ -6,6 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MapActivity">
 
+
+
+
+
     <Button
         android:id="@+id/map_btn_12th_grade_building"
         android:layout_width="wrap_content"
@@ -100,5 +104,5 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.402" />
+        app:layout_constraintVertical_bias="0.402" /> <!--Main Building-->
 </androidx.constraintlayout.widget.ConstraintLayout>
